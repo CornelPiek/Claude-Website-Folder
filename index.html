@@ -1,0 +1,1806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BM Thatchers International | Thatch Roofing Specialists — Est. 1988</title>
+  <meta name="description" content="BM Thatchers International — specialist thatch roofing, building & construction services across Southern Africa and abroad. NHBRC registered. Est. 1988. Contact us for a free quote.">
+  <meta name="keywords" content="thatch roofing, thatched roof, thatch repairs, NHBRC builder, Gauteng, South Africa, international thatch, fire protection, building construction">
+  <link rel="canonical" href="https://www.bmthatchers.co.za/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BM Thatchers International | Thatch Roofing Specialists">
+  <meta property="og:description" content="Specialist thatch roofing, repairs and building & construction services. NHBRC registered. Est. 1988. Nothing Better Under The Sun.">
+  <meta property="og:url" content="https://www.bmthatchers.co.za/">
+  <meta property="og:site_name" content="BM Thatchers International">
+
+  <!-- Structured Data: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "BM Thatchers International",
+    "description": "Specialist thatch roofing, building and construction services across Southern Africa and internationally. NHBRC registered builder. Est. 1988.",
+    "url": "https://www.bmthatchers.co.za",
+    "telephone": ["+27114392901", "+27824536477", "+27828299369"],
+    "email": "info@bmthatchers.co.za",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "71 Nelson Rd, Gardenvale AH",
+      "addressLocality": "Midvaal",
+      "addressRegion": "Gauteng",
+      "addressCountry": "ZA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -26.55,
+      "longitude": 27.98
+    },
+    "foundingDate": "1988",
+    "slogan": "Nothing Better Under The Sun",
+    "areaServed": "Southern Africa and International",
+    "hasCredential": ["NHBRC Registered Builder", "Thatchers Association of South Africa", "SANS Code Compliant"]
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    /* ============================================================
+       BM Thatchers International — Design System
+       CI: Bebas Neue (display), Montserrat (body), gold #C2AB69, black, white
+       "Nothing Better Under The Sun" — Est. 1988
+       ============================================================ */
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bmt-black:    #000000;
+      --bmt-gold:     #C2AB69;
+      --bmt-white:    #FFFFFF;
+
+      --bmt-ink:      #0A0A0A;
+      --bmt-charcoal: #1A1A1A;
+      --bmt-graphite: #2A2A2A;
+      --bmt-stone:    #5C5C5C;
+      --bmt-ash:      #8A8A8A;
+      --bmt-mist:     #C9C9C9;
+      --bmt-bone:     #EEEAE0;
+      --bmt-cream:    #F7F3EA;
+
+      --bmt-gold-500: #A88E4D;
+      --bmt-gold-600: #8A7339;
+      --bmt-gold-700: #6B5828;
+      --bmt-gold-800: #4A3D1B;
+
+      --fg-1: var(--bmt-ink);
+      --fg-2: var(--bmt-stone);
+      --fg-3: var(--bmt-ash);
+      --fg-on-dark-1: var(--bmt-white);
+      --fg-on-dark-2: #BFBFBF;
+      --fg-accent: var(--bmt-gold);
+
+      --bg-1: var(--bmt-white);
+      --bg-2: var(--bmt-cream);
+      --bg-3: var(--bmt-bone);
+      --bg-dark-1: var(--bmt-black);
+      --bg-dark-2: var(--bmt-charcoal);
+
+      --border-1: rgba(0,0,0,0.08);
+      --border-2: rgba(0,0,0,0.16);
+      --border-gold: rgba(194,171,105,0.45);
+      --border-on-dark: rgba(255,255,255,0.12);
+
+      --font-display: 'Bebas Neue', 'Oswald', 'Impact', sans-serif;
+      --font-body:    'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+
+      --fs-display: clamp(56px, 7vw, 112px);
+      --fs-h1:      clamp(40px, 4.5vw, 72px);
+      --fs-h2:      clamp(32px, 3.4vw, 52px);
+      --fs-h3:      clamp(22px, 2.4vw, 34px);
+      --fs-h4:      20px;
+      --fs-eyebrow: 11px;
+      --fs-body-lg: 18px;
+      --fs-body:    16px;
+      --fs-body-sm: 14px;
+      --fs-caption: 12px;
+
+      --tracking-display: 0.02em;
+      --tracking-eyebrow: 0.32em;
+      --tracking-button:  0.18em;
+      --tracking-label:   0.08em;
+
+      --sp-1: 4px;   --sp-2: 8px;   --sp-3: 12px;  --sp-4: 16px;
+      --sp-5: 24px;  --sp-6: 32px;  --sp-7: 48px;  --sp-8: 64px;
+      --sp-9: 96px;  --sp-10: 128px;
+
+      --r-0: 0px;  --r-1: 2px;  --r-2: 4px;  --r-pill: 999px;
+
+      --shadow-1: 0 1px 2px rgba(0,0,0,0.06), 0 1px 1px rgba(0,0,0,0.04);
+      --shadow-2: 0 4px 12px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.04);
+      --shadow-3: 0 12px 32px rgba(0,0,0,0.14), 0 4px 8px rgba(0,0,0,0.06);
+      --shadow-gold: 0 6px 24px rgba(194,171,105,0.35);
+
+      --ease-out:    cubic-bezier(0.22, 0.61, 0.36, 1);
+      --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+      --dur-1: 120ms;  --dur-2: 220ms;  --dur-3: 380ms;
+    }
+
+    /* ============================================================
+       Base
+       ============================================================ */
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      font-size: var(--fs-body);
+      line-height: 1.55;
+      color: var(--fg-1);
+      background: var(--bg-1);
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+    ul { list-style: none; }
+    button { font-family: var(--font-body); cursor: pointer; }
+
+    .bmt-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+
+    /* ============================================================
+       Typography
+       ============================================================ */
+    .bmt-display {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: var(--fs-display);
+      line-height: 0.92;
+      letter-spacing: var(--tracking-display);
+      text-transform: uppercase;
+    }
+
+    h1, .bmt-h1 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: var(--fs-h1);
+      line-height: 0.96;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+    }
+
+    h2, .bmt-h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: var(--fs-h2);
+      line-height: 1;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+    }
+
+    h2 strong, h1 strong, .bmt-display strong {
+      color: var(--bmt-gold);
+      font-weight: inherit;
+    }
+
+    h3, .bmt-h3 {
+      font-family: var(--font-body);
+      font-weight: 800;
+      font-size: var(--fs-h3);
+      line-height: 1.15;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+
+    h4, .bmt-h4 {
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: var(--fs-h4);
+      line-height: 1.3;
+      letter-spacing: var(--tracking-label);
+      text-transform: uppercase;
+    }
+
+    .bmt-eyebrow {
+      font-family: var(--font-body);
+      font-weight: 800;
+      font-size: var(--fs-eyebrow);
+      letter-spacing: var(--tracking-eyebrow);
+      text-transform: uppercase;
+      color: var(--bmt-gold);
+    }
+
+    .bmt-lead {
+      font-size: var(--fs-body-lg);
+      line-height: 1.6;
+      color: var(--fg-2);
+    }
+
+    .bmt-rule {
+      display: block;
+      width: 56px;
+      height: 2px;
+      background: var(--bmt-gold);
+      margin: var(--sp-3) 0 var(--sp-4);
+    }
+
+    /* ============================================================
+       Buttons
+       ============================================================ */
+    .bmt-btn {
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: 12px;
+      letter-spacing: var(--tracking-button);
+      text-transform: uppercase;
+      padding: 14px 26px;
+      border: 1.5px solid transparent;
+      border-radius: var(--r-1);
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: all var(--dur-2) var(--ease-out);
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .bmt-btn-lg { padding: 18px 34px; font-size: 13px; }
+
+    .bmt-btn-gold {
+      background: var(--bmt-gold);
+      color: var(--bmt-black);
+      border-color: var(--bmt-gold);
+    }
+    .bmt-btn-gold:hover {
+      background: var(--bmt-gold-500);
+      border-color: var(--bmt-gold-500);
+      box-shadow: var(--shadow-gold);
+    }
+
+    .bmt-btn-outline-gold {
+      background: transparent;
+      color: var(--bmt-gold);
+      border-color: var(--bmt-gold);
+    }
+    .bmt-btn-outline-gold:hover {
+      background: var(--bmt-gold);
+      color: var(--bmt-black);
+    }
+
+    .bmt-btn-ghost-light {
+      background: rgba(255,255,255,0.08);
+      color: var(--bmt-white);
+      border-color: rgba(255,255,255,0.3);
+    }
+    .bmt-btn-ghost-light:hover {
+      background: rgba(255,255,255,0.16);
+      border-color: rgba(255,255,255,0.5);
+    }
+
+    .bmt-arrow::after { content: '→'; margin-left: 2px; }
+
+    .bmt-link {
+      font-size: var(--fs-body-sm);
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--bmt-gold);
+      cursor: pointer;
+      text-underline-offset: 3px;
+    }
+    .bmt-link:hover { text-decoration: underline; }
+
+    /* ============================================================
+       Photo Placeholders
+       ============================================================ */
+    .bmt-photo-placeholder {
+      background: linear-gradient(135deg, var(--bmt-charcoal) 0%, var(--bmt-graphite) 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: var(--sp-3);
+      border: 1px solid var(--border-gold);
+      position: relative;
+      overflow: hidden;
+    }
+    .bmt-photo-placeholder::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 20px,
+        rgba(194,171,105,0.04) 20px,
+        rgba(194,171,105,0.04) 21px
+      );
+    }
+    .bmt-photo-placeholder-icon {
+      width: 48px;
+      height: 48px;
+      opacity: 0.35;
+      position: relative;
+      z-index: 1;
+    }
+    .bmt-photo-placeholder-label {
+      font-family: var(--font-body);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--bmt-gold);
+      opacity: 0.7;
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 0 var(--sp-5);
+    }
+
+    /* ============================================================
+       Section Shared
+       ============================================================ */
+    .bmt-section { padding: var(--sp-10) 0; }
+
+    .bmt-section-head {
+      max-width: 640px;
+      margin-bottom: var(--sp-8);
+    }
+    .bmt-section-head .bmt-lead {
+      margin-top: var(--sp-5);
+    }
+
+    /* ============================================================
+       Header
+       ============================================================ */
+    .bmt-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .bmt-topbar {
+      background: var(--bmt-black);
+      color: var(--bmt-white);
+      padding: 10px 40px;
+      display: flex;
+      align-items: center;
+      gap: var(--sp-6);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .bmt-topbar a {
+      color: var(--bmt-white);
+      display: inline-flex;
+      align-items: center;
+      gap: var(--sp-2);
+      transition: color var(--dur-2) var(--ease-out);
+    }
+    .bmt-topbar a:hover { color: var(--bmt-gold); }
+
+    .bmt-topbar-dot {
+      width: 4px;
+      height: 4px;
+      background: var(--bmt-gold);
+      display: inline-block;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .bmt-topbar-spacer { flex: 1; }
+
+    .bmt-topbar-tag {
+      color: var(--bmt-gold);
+      font-weight: 800;
+      letter-spacing: 0.24em;
+    }
+
+    .bmt-nav {
+      background: var(--bmt-white);
+      padding: 16px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border-1);
+      gap: var(--sp-6);
+    }
+
+    .bmt-logo { flex-shrink: 0; cursor: pointer; }
+    .bmt-logo img { height: 56px; }
+
+    .bmt-nav-links {
+      display: flex;
+      align-items: center;
+      gap: var(--sp-7);
+    }
+
+    .bmt-nav-link {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--bmt-black);
+      cursor: pointer;
+      padding-bottom: 4px;
+      border-bottom: 2px solid transparent;
+      transition: all var(--dur-2) var(--ease-out);
+    }
+    .bmt-nav-link:hover { color: var(--bmt-gold); }
+    .bmt-nav-link.is-active {
+      color: var(--bmt-gold);
+      border-bottom-color: var(--bmt-gold);
+    }
+
+    /* Mobile hamburger */
+    .bmt-hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      border: none;
+      padding: 4px;
+      cursor: pointer;
+    }
+    .bmt-hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--bmt-black);
+      transition: all var(--dur-2) var(--ease-out);
+    }
+
+    .bmt-mobile-menu {
+      display: none;
+      background: var(--bmt-white);
+      border-top: 1px solid var(--border-1);
+      padding: var(--sp-5) var(--sp-5);
+      flex-direction: column;
+      gap: var(--sp-4);
+    }
+    .bmt-mobile-menu.is-open { display: flex; }
+    .bmt-mobile-menu .bmt-nav-link {
+      font-size: 13px;
+      padding: var(--sp-3) 0;
+      border-bottom: 1px solid var(--border-1);
+    }
+    .bmt-mobile-menu .bmt-btn { width: 100%; justify-content: center; margin-top: var(--sp-3); }
+
+    /* ============================================================
+       Hero
+       ============================================================ */
+    #hero {
+      position: relative;
+      min-height: 92vh;
+      display: flex;
+      align-items: flex-end;
+      background: var(--bmt-black);
+      overflow: hidden;
+    }
+
+    .bmt-hero-photo {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, #1a1408 0%, #2A2014 40%, #0A0A0A 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .bmt-hero-photo::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 30px,
+        rgba(194,171,105,0.03) 30px,
+        rgba(194,171,105,0.03) 31px
+      );
+    }
+
+    .bmt-hero-photo-label {
+      font-family: var(--font-body);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(194,171,105,0.4);
+      position: relative;
+      z-index: 1;
+    }
+
+    .bmt-hero-scrim {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.92) 0%,
+        rgba(0,0,0,0.5) 50%,
+        rgba(0,0,0,0.2) 100%
+      );
+    }
+
+    .bmt-hero-content {
+      position: relative;
+      z-index: 2;
+      padding: var(--sp-10) 40px;
+      max-width: 900px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .bmt-hero-content .bmt-display {
+      color: var(--bmt-white);
+      margin-top: var(--sp-4);
+    }
+
+    .bmt-hero-content .bmt-display strong {
+      color: var(--bmt-gold);
+    }
+
+    .bmt-tagline {
+      font-family: var(--font-body);
+      font-style: italic;
+      font-size: var(--fs-body-lg);
+      color: rgba(255,255,255,0.55);
+      margin-top: var(--sp-5);
+    }
+
+    .bmt-hero-actions {
+      display: flex;
+      gap: var(--sp-4);
+      margin-top: var(--sp-7);
+      flex-wrap: wrap;
+    }
+
+    .bmt-hero-credentials {
+      position: absolute;
+      bottom: var(--sp-6);
+      right: 40px;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      gap: var(--sp-4);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.45);
+    }
+
+    .bmt-hero-credentials .dot {
+      width: 3px;
+      height: 3px;
+      background: var(--bmt-gold);
+      border-radius: 50%;
+      opacity: 0.6;
+    }
+
+    /* ============================================================
+       About
+       ============================================================ */
+    #about {
+      background: var(--bg-1);
+    }
+
+    .bmt-about-grid {
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: var(--sp-9);
+      align-items: start;
+    }
+
+    .bmt-about-copy .bmt-lead {
+      margin-top: var(--sp-5);
+      max-width: 540px;
+    }
+
+    .bmt-about-actions {
+      display: flex;
+      align-items: center;
+      gap: var(--sp-6);
+      margin-top: var(--sp-7);
+      flex-wrap: wrap;
+    }
+
+    .bmt-about-card {
+      background: var(--bg-dark-1);
+      padding: var(--sp-7);
+      border: 1px solid var(--border-gold);
+    }
+
+    .bmt-card-num {
+      font-family: var(--font-display);
+      font-size: 96px;
+      line-height: 0.85;
+      color: var(--bmt-gold);
+      letter-spacing: -0.02em;
+    }
+
+    .bmt-card-label {
+      font-size: var(--fs-caption);
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--fg-on-dark-2);
+      margin-top: var(--sp-2);
+    }
+
+    .bmt-card-list {
+      margin-top: var(--sp-6);
+      display: flex;
+      flex-direction: column;
+      gap: var(--sp-3);
+    }
+
+    .bmt-card-list li {
+      font-size: var(--fs-body-sm);
+      color: var(--fg-on-dark-2);
+      padding-left: var(--sp-5);
+      position: relative;
+    }
+
+    .bmt-card-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 7px;
+      width: 8px;
+      height: 1px;
+      background: var(--bmt-gold);
+    }
+
+    /* ============================================================
+       Stats Bar
+       ============================================================ */
+    #stats {
+      background: var(--bmt-black);
+      padding: var(--sp-9) 0;
+    }
+
+    .bmt-stats-eyebrow {
+      text-align: center;
+      margin-bottom: var(--sp-7);
+    }
+
+    .bmt-stats-eyebrow .bmt-eyebrow {
+      color: rgba(194,171,105,0.6);
+    }
+
+    .bmt-stats-eyebrow .bmt-eyebrow strong {
+      color: var(--bmt-gold);
+    }
+
+    .bmt-stats-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--sp-6);
+    }
+
+    .bmt-stat {
+      text-align: center;
+      padding: var(--sp-6);
+      border: 1px solid var(--border-on-dark);
+    }
+
+    .bmt-stat-num {
+      font-family: var(--font-display);
+      font-size: clamp(48px, 6vw, 80px);
+      line-height: 0.9;
+      color: var(--bmt-gold);
+      letter-spacing: 0.01em;
+    }
+
+    .bmt-stat-label {
+      font-size: var(--fs-caption);
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.45);
+      margin-top: var(--sp-3);
+    }
+
+    /* ============================================================
+       Services Grid
+       ============================================================ */
+    #services {
+      background: var(--bg-2);
+    }
+
+    .bmt-services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--border-2);
+    }
+
+    .bmt-service-card {
+      background: var(--bg-1);
+      padding: var(--sp-7);
+      position: relative;
+      transition: background var(--dur-2) var(--ease-out);
+      cursor: default;
+    }
+
+    .bmt-service-card:hover {
+      background: var(--bmt-black);
+    }
+
+    .bmt-service-card:hover .bmt-service-title,
+    .bmt-service-card:hover .bmt-service-body { color: var(--bmt-white); }
+
+    .bmt-service-card.is-featured {
+      background: var(--bmt-black);
+    }
+
+    .bmt-service-card.is-featured .bmt-service-title,
+    .bmt-service-card.is-featured .bmt-service-body,
+    .bmt-service-card.is-featured .bmt-service-more { color: var(--bmt-white); }
+
+    .bmt-service-flag {
+      display: inline-block;
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      background: var(--bmt-gold);
+      color: var(--bmt-black);
+      padding: 4px 10px;
+      margin-bottom: var(--sp-5);
+    }
+
+    .bmt-service-num {
+      font-family: var(--font-display);
+      font-size: 48px;
+      line-height: 1;
+      color: var(--bmt-gold);
+      opacity: 0.6;
+    }
+
+    .bmt-service-card .bmt-rule {
+      margin: var(--sp-4) 0;
+    }
+
+    .bmt-service-title {
+      font-family: var(--font-body);
+      font-weight: 800;
+      font-size: 15px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--fg-1);
+      line-height: 1.3;
+      transition: color var(--dur-2) var(--ease-out);
+    }
+
+    .bmt-service-body {
+      font-size: var(--fs-body-sm);
+      color: var(--fg-2);
+      line-height: 1.65;
+      margin-top: var(--sp-3);
+      transition: color var(--dur-2) var(--ease-out);
+    }
+
+    .bmt-service-more {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--sp-2);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--bmt-gold);
+      margin-top: var(--sp-5);
+      transition: color var(--dur-2) var(--ease-out);
+    }
+
+    /* ============================================================
+       Construction Feature
+       ============================================================ */
+    #construction {
+      background: var(--bg-1);
+    }
+
+    .bmt-construction-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--sp-9);
+      align-items: center;
+    }
+
+    .bmt-construction-photo {
+      aspect-ratio: 4/5;
+      position: relative;
+    }
+
+    .bmt-construction-photo .bmt-photo-placeholder {
+      width: 100%;
+      height: 100%;
+    }
+
+    .bmt-construction-stamp {
+      position: absolute;
+      bottom: var(--sp-6);
+      right: var(--sp-6);
+      background: var(--bmt-gold);
+      color: var(--bmt-black);
+      padding: var(--sp-4) var(--sp-5);
+      text-align: center;
+    }
+
+    .bmt-stamp-eyebrow {
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+    }
+
+    .bmt-stamp-num {
+      font-family: var(--font-display);
+      font-size: 28px;
+      line-height: 1;
+      margin-top: 2px;
+    }
+
+    .bmt-stamp-label {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .bmt-construction-copy .bmt-lead {
+      margin-top: var(--sp-5);
+    }
+
+    .bmt-construction-list {
+      margin-top: var(--sp-7);
+      display: flex;
+      flex-direction: column;
+      gap: var(--sp-5);
+    }
+
+    .bmt-construction-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--sp-5);
+    }
+
+    .bmt-construction-num {
+      font-family: var(--font-display);
+      font-size: 32px;
+      color: var(--bmt-gold);
+      line-height: 1;
+      flex-shrink: 0;
+      width: 42px;
+    }
+
+    .bmt-construction-list li div {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .bmt-construction-list li strong {
+      font-size: var(--fs-body-sm);
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .bmt-construction-list li span {
+      font-size: var(--fs-body-sm);
+      color: var(--fg-2);
+    }
+
+    .bmt-construction-actions {
+      display: flex;
+      align-items: center;
+      gap: var(--sp-6);
+      margin-top: var(--sp-7);
+      flex-wrap: wrap;
+    }
+
+    /* ============================================================
+       Projects Strip
+       ============================================================ */
+    #projects {
+      background: var(--bg-dark-1);
+    }
+
+    #projects .bmt-section-head .bmt-h2,
+    #projects .bmt-section-head .bmt-eyebrow { /* already dark bg */ }
+
+    #projects .bmt-h2 { color: var(--bmt-white); }
+
+    .bmt-projects-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--sp-2);
+    }
+
+    .bmt-project {
+      display: block;
+      cursor: pointer;
+    }
+
+    .bmt-project-photo {
+      aspect-ratio: 3/4;
+    }
+
+    .bmt-project-photo .bmt-photo-placeholder {
+      width: 100%;
+      height: 100%;
+    }
+
+    .bmt-project-meta {
+      padding: var(--sp-4) 0;
+    }
+
+    .bmt-project-tag {
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: 0.26em;
+      text-transform: uppercase;
+      color: var(--bmt-gold);
+    }
+
+    .bmt-project-name {
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: var(--fs-body-sm);
+      color: var(--bmt-white);
+      margin-top: 4px;
+    }
+
+    .bmt-project-loc {
+      font-size: var(--fs-caption);
+      color: var(--fg-on-dark-2);
+      margin-top: 2px;
+      letter-spacing: 0.06em;
+    }
+
+    .bmt-projects-foot {
+      margin-top: var(--sp-8);
+      display: flex;
+      justify-content: center;
+    }
+
+    /* ============================================================
+       Quote Form
+       ============================================================ */
+    #contact {
+      background: var(--bg-2);
+    }
+
+    .bmt-quote-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--sp-9);
+      align-items: start;
+    }
+
+    .bmt-quote-list {
+      margin-top: var(--sp-6);
+      display: flex;
+      flex-direction: column;
+      gap: var(--sp-4);
+    }
+
+    .bmt-quote-list li {
+      display: flex;
+      align-items: center;
+      gap: var(--sp-4);
+      font-size: var(--fs-body-sm);
+      color: var(--fg-2);
+    }
+
+    .bmt-bullet {
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border: 1.5px solid var(--bmt-gold);
+      flex-shrink: 0;
+    }
+
+    .bmt-quote-form {
+      background: var(--bg-1);
+      padding: var(--sp-8);
+      border: 1px solid var(--border-1);
+    }
+
+    .bmt-field-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--sp-4);
+      margin-bottom: var(--sp-4);
+    }
+
+    .bmt-field {
+      display: flex;
+      flex-direction: column;
+      gap: var(--sp-2);
+      margin-bottom: var(--sp-4);
+    }
+
+    .bmt-field span {
+      font-size: var(--fs-caption);
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--fg-2);
+    }
+
+    .bmt-field input,
+    .bmt-field select,
+    .bmt-field textarea {
+      font-family: var(--font-body);
+      font-size: var(--fs-body-sm);
+      color: var(--fg-1);
+      background: var(--bg-2);
+      border: 1px solid var(--border-2);
+      border-radius: var(--r-1);
+      padding: 12px 14px;
+      width: 100%;
+      transition: border-color var(--dur-1) var(--ease-out);
+      outline: none;
+      -webkit-appearance: none;
+    }
+
+    .bmt-field input:focus,
+    .bmt-field select:focus,
+    .bmt-field textarea:focus {
+      border-color: var(--bmt-gold);
+    }
+
+    .bmt-field textarea { resize: vertical; min-height: 100px; }
+
+    .bmt-form-submit {
+      width: 100%;
+      justify-content: center;
+      margin-top: var(--sp-3);
+    }
+
+    .bmt-form-notice {
+      font-size: var(--fs-caption);
+      color: var(--fg-3);
+      text-align: center;
+      margin-top: var(--sp-3);
+      letter-spacing: 0.04em;
+    }
+
+    /* ============================================================
+       Footer
+       ============================================================ */
+    footer {
+      background: var(--bmt-black);
+      padding-top: var(--sp-10);
+    }
+
+    .bmt-footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: var(--sp-8);
+      padding-bottom: var(--sp-9);
+    }
+
+    .bmt-footer-brand img {
+      height: 52px;
+      margin-bottom: var(--sp-5);
+      filter: brightness(0) invert(1);
+    }
+
+    .bmt-footer-brand p {
+      font-size: var(--fs-body-sm);
+      color: var(--fg-on-dark-2);
+      line-height: 1.7;
+      max-width: 280px;
+    }
+
+    .bmt-footer-brand strong { color: var(--bmt-gold); }
+
+    .bmt-footer-h {
+      font-family: var(--font-body);
+      font-weight: 800;
+      font-size: 10px;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--bmt-gold);
+      margin-bottom: var(--sp-5);
+    }
+
+    .bmt-footer-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--sp-3);
+    }
+
+    .bmt-footer-list li,
+    .bmt-footer-list a {
+      font-size: var(--fs-body-sm);
+      color: var(--fg-on-dark-2);
+      line-height: 1.5;
+      transition: color var(--dur-2) var(--ease-out);
+    }
+
+    .bmt-footer-list a:hover { color: var(--bmt-gold); }
+
+    .bmt-footer-badges {
+      display: flex;
+      flex-direction: column;
+      gap: var(--sp-3);
+    }
+
+    .bmt-badge {
+      display: flex;
+      flex-direction: column;
+      padding: var(--sp-4);
+      border: 1px solid var(--border-gold);
+    }
+
+    .bmt-badge span {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--bmt-white);
+    }
+
+    .bmt-badge small {
+      font-size: 10px;
+      color: var(--fg-on-dark-2);
+      margin-top: 2px;
+      letter-spacing: 0.06em;
+    }
+
+    .bmt-footer-foot {
+      border-top: 1px solid var(--border-on-dark);
+      padding: var(--sp-5) 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: var(--fs-caption);
+      color: var(--fg-on-dark-2);
+      letter-spacing: 0.06em;
+      flex-wrap: wrap;
+      gap: var(--sp-4);
+    }
+
+    .bmt-footer-foot a { color: var(--fg-on-dark-2); }
+    .bmt-footer-foot a:hover { color: var(--bmt-gold); }
+
+    /* ============================================================
+       Responsive
+       ============================================================ */
+    @media (max-width: 1024px) {
+      .bmt-about-grid { grid-template-columns: 1fr; }
+      .bmt-about-card { max-width: 400px; }
+      .bmt-construction-grid { grid-template-columns: 1fr; }
+      .bmt-construction-photo { max-width: 500px; }
+      .bmt-footer-grid { grid-template-columns: 1fr 1fr; gap: var(--sp-7); }
+    }
+
+    @media (max-width: 768px) {
+      .bmt-container { padding: 0 20px; }
+      .bmt-topbar { padding: 8px 20px; gap: var(--sp-4); }
+      .bmt-topbar-tag { display: none; }
+      .bmt-nav { padding: 14px 20px; }
+      .bmt-nav-links { display: none; }
+      .bmt-nav .bmt-btn { display: none; }
+      .bmt-hamburger { display: flex; }
+
+      #hero { min-height: 80vh; }
+      .bmt-hero-content { padding: var(--sp-8) 20px; }
+      .bmt-hero-credentials { display: none; }
+
+      .bmt-section { padding: var(--sp-9) 0; }
+      .bmt-stats-row { grid-template-columns: repeat(2, 1fr); }
+      .bmt-services-grid { grid-template-columns: 1fr; }
+      .bmt-projects-grid { grid-template-columns: repeat(2, 1fr); }
+      .bmt-quote-grid { grid-template-columns: 1fr; }
+      .bmt-quote-form { padding: var(--sp-6); }
+      .bmt-field-row { grid-template-columns: 1fr; }
+      .bmt-footer-grid { grid-template-columns: 1fr; }
+      .bmt-footer-brand img { filter: brightness(0) invert(0.7); }
+    }
+
+    @media (max-width: 480px) {
+      .bmt-hero-actions { flex-direction: column; align-items: flex-start; }
+      .bmt-projects-grid { grid-template-columns: 1fr; }
+      .bmt-stats-row { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="bmt-header" id="site-header">
+    <div class="bmt-topbar">
+      <a href="tel:+27828299369">
+        <span class="bmt-topbar-dot"></span>
+        082 829 9369
+      </a>
+      <a href="mailto:info@bmthatchers.co.za">info@bmthatchers.co.za</a>
+      <span class="bmt-topbar-spacer"></span>
+      <span class="bmt-topbar-tag">Est. 1988 · International Footprint</span>
+    </div>
+    <nav class="bmt-nav">
+      <a class="bmt-logo" href="#hero" aria-label="BM Thatchers International">
+        <!-- Replace src with your logo path: <img src="logo.png" alt="BM Thatchers International"> -->
+        <svg width="160" height="44" viewBox="0 0 160 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="44" height="44" fill="#000"/>
+          <g stroke="#C2AB69" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 28 L8 16 L16 16 L16 28"/>
+            <path d="M8 28 L4 32 L20 32 L16 28"/>
+            <path d="M16 16 L22 20 L16 28"/>
+            <path d="M36 28 L36 16 L28 16 L28 28"/>
+            <path d="M36 28 L40 32 L24 32 L28 28"/>
+            <path d="M28 16 L22 20 L28 28"/>
+          </g>
+          <text x="52" y="20" fill="#000" font-family="'Bebas Neue', Impact, sans-serif" font-size="18" letter-spacing="2">BM THATCHERS</text>
+          <text x="52" y="34" fill="#C2AB69" font-family="'Bebas Neue', Impact, sans-serif" font-size="13" letter-spacing="3">INTERNATIONAL</text>
+        </svg>
+      </a>
+      <div class="bmt-nav-links" id="nav-links">
+        <a class="bmt-nav-link is-active" href="#hero" data-section="hero">Home</a>
+        <a class="bmt-nav-link" href="#about" data-section="about">About Us</a>
+        <a class="bmt-nav-link" href="#services" data-section="services">Our Services</a>
+        <a class="bmt-nav-link" href="#construction" data-section="construction">Construction</a>
+        <a class="bmt-nav-link" href="#projects" data-section="projects">Projects</a>
+        <a class="bmt-nav-link" href="#contact" data-section="contact">Contact Us</a>
+      </div>
+      <a class="bmt-btn bmt-btn-gold" href="#contact">Get a Quote <span class="bmt-arrow"></span></a>
+      <button class="bmt-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="bmt-mobile-menu" id="mobile-menu" role="navigation">
+      <a class="bmt-nav-link" href="#hero">Home</a>
+      <a class="bmt-nav-link" href="#about">About Us</a>
+      <a class="bmt-nav-link" href="#services">Our Services</a>
+      <a class="bmt-nav-link" href="#construction">Construction</a>
+      <a class="bmt-nav-link" href="#projects">Projects</a>
+      <a class="bmt-nav-link" href="#contact">Contact Us</a>
+      <a class="bmt-btn bmt-btn-gold" href="#contact">Get a Quote <span class="bmt-arrow"></span></a>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section id="hero">
+    <div class="bmt-hero-photo">
+      <!-- Replace this div with: <img src="hero.jpg" alt="Thatched lodge at golden hour" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"> -->
+      <span class="bmt-hero-photo-label">Hero photo — thatched lodge at golden hour</span>
+    </div>
+    <div class="bmt-hero-scrim"></div>
+    <div class="bmt-hero-content bmt-container" style="max-width:1280px;">
+      <div class="bmt-eyebrow">Est. 1988 — International</div>
+      <span class="bmt-rule"></span>
+      <h1 class="bmt-display">
+        International<br>
+        <strong>Thatch Roofing<br>Specialists</strong>
+      </h1>
+      <p class="bmt-tagline">"Nothing Better Under The Sun"</p>
+      <div class="bmt-hero-actions">
+        <a class="bmt-btn bmt-btn-gold bmt-btn-lg" href="#contact">Contact Us <span class="bmt-arrow"></span></a>
+        <a class="bmt-btn bmt-btn-ghost-light bmt-btn-lg" href="#services">Our Services</a>
+      </div>
+    </div>
+    <div class="bmt-hero-credentials">
+      <span>NHBRC Registered</span>
+      <span class="dot" style="width:3px;height:3px;background:var(--bmt-gold);border-radius:50%;opacity:.6;display:inline-block;"></span>
+      <span>SANS Code Compliant</span>
+      <span class="dot" style="width:3px;height:3px;background:var(--bmt-gold);border-radius:50%;opacity:.6;display:inline-block;"></span>
+      <span>Thatchers Association of South Africa</span>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT
+       ============================================================ -->
+  <section id="about" class="bmt-section">
+    <div class="bmt-container bmt-about-grid">
+      <div class="bmt-about-copy">
+        <div class="bmt-eyebrow">About BM Thatchers</div>
+        <span class="bmt-rule"></span>
+        <h2 class="bmt-h2">
+          Thirty-six years of <strong>thatch roofing</strong>,<br>
+          built to last under any sun.
+        </h2>
+        <p class="bmt-lead">
+          Based in the South of Johannesburg, with an international footprint and over three
+          decades of success and customer satisfaction, BM Thatchers prides itself on the highest
+          quality of workmanship and trade excellence since our inception in 1988, offering
+          thatch roofs throughout Gauteng and abroad.
+        </p>
+        <div class="bmt-about-actions">
+          <a class="bmt-btn bmt-btn-outline-gold" href="#contact">Get in Touch <span class="bmt-arrow"></span></a>
+          <a class="bmt-link" href="#services">Our Services →</a>
+        </div>
+      </div>
+      <aside class="bmt-about-card">
+        <div class="bmt-card-num">36</div>
+        <div class="bmt-card-label">Years of trade excellence</div>
+        <span class="bmt-rule"></span>
+        <ul class="bmt-card-list">
+          <li>SANS-coded thatch construction</li>
+          <li>NHBRC registered builder</li>
+          <li>Fire and lightning protection systems</li>
+          <li>Projects delivered worldwide</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STATS BAR
+       ============================================================ -->
+  <section id="stats">
+    <div class="bmt-container">
+      <div class="bmt-stats-eyebrow">
+        <span class="bmt-eyebrow">Completed Projects <strong>Worldwide</strong></span>
+      </div>
+      <div class="bmt-stats-row">
+        <div class="bmt-stat">
+          <div class="bmt-stat-num">5</div>
+          <div class="bmt-stat-label">Continents</div>
+        </div>
+        <div class="bmt-stat">
+          <div class="bmt-stat-num">12+</div>
+          <div class="bmt-stat-label">Countries</div>
+        </div>
+        <div class="bmt-stat">
+          <div class="bmt-stat-num">2,400+</div>
+          <div class="bmt-stat-label">Projects Completed</div>
+        </div>
+        <div class="bmt-stat">
+          <div class="bmt-stat-num">36</div>
+          <div class="bmt-stat-label">Years Experience</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES GRID
+       ============================================================ -->
+  <section id="services" class="bmt-section">
+    <div class="bmt-container">
+      <div class="bmt-section-head">
+        <div class="bmt-eyebrow">What We Do</div>
+        <span class="bmt-rule"></span>
+        <h2 class="bmt-h2">Our <strong>Services</strong></h2>
+        <p class="bmt-lead bmt-section-lead">
+          Thatch is where we started — but it's not where we stop. From new residential
+          builds and renovations to fire protection and international projects, we deliver a
+          full scope of trade services with three decades of site experience.
+        </p>
+      </div>
+      <div class="bmt-services-grid">
+
+        <article class="bmt-service-card">
+          <div class="bmt-service-num">01</div>
+          <span class="bmt-rule"></span>
+          <h3 class="bmt-service-title">New Thatched Roofs</h3>
+          <p class="bmt-service-body">Conforming to SANS code and adjustment to local codes where applicable, we supply and install new thatch roofs across Southern Africa and abroad.</p>
+          <a class="bmt-service-more" href="#contact">Enquire <span class="bmt-arrow"></span></a>
+        </article>
+
+        <article class="bmt-service-card">
+          <div class="bmt-service-num">02</div>
+          <span class="bmt-rule"></span>
+          <h3 class="bmt-service-title">Thatch Repairs &amp; Maintenance</h3>
+          <p class="bmt-service-body">Maintaining your thatched roof is integral to ensuring its longevity. Our experts assess and guide you through chronological repair scopes.</p>
+          <a class="bmt-service-more" href="#contact">Enquire <span class="bmt-arrow"></span></a>
+        </article>
+
+        <article class="bmt-service-card is-featured">
+          <div class="bmt-service-flag">NHBRC Registered</div>
+          <div class="bmt-service-num">03</div>
+          <span class="bmt-rule"></span>
+          <h3 class="bmt-service-title">Building &amp; Construction Services</h3>
+          <p class="bmt-service-body">A full-scope NHBRC-registered builder. New residential builds, renovations, additions and building maintenance — managed from concept to handover.</p>
+          <a class="bmt-service-more" href="#construction">Learn More <span class="bmt-arrow"></span></a>
+        </article>
+
+        <article class="bmt-service-card">
+          <div class="bmt-service-num">04</div>
+          <span class="bmt-rule"></span>
+          <h3 class="bmt-service-title">International Projects &amp; Exports</h3>
+          <p class="bmt-service-body">From Gauteng to islands and continents abroad — supply, installation and project management on international sites.</p>
+          <a class="bmt-service-more" href="#contact">Enquire <span class="bmt-arrow"></span></a>
+        </article>
+
+        <article class="bmt-service-card">
+          <div class="bmt-service-num">05</div>
+          <span class="bmt-rule"></span>
+          <h3 class="bmt-service-title">Fire &amp; Lightning Protection</h3>
+          <p class="bmt-service-body">Specialist systems to safeguard thatched structures against fire and lightning strikes, designed to local code.</p>
+          <a class="bmt-service-more" href="#contact">Enquire <span class="bmt-arrow"></span></a>
+        </article>
+
+        <article class="bmt-service-card">
+          <div class="bmt-service-num">06</div>
+          <span class="bmt-rule"></span>
+          <h3 class="bmt-service-title">Added Services</h3>
+          <p class="bmt-service-body">Ridging, capping, eaves, structural carpentry, sealants and a range of complementary trade services.</p>
+          <a class="bmt-service-more" href="#contact">Enquire <span class="bmt-arrow"></span></a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONSTRUCTION FEATURE
+       ============================================================ -->
+  <section id="construction" class="bmt-section">
+    <div class="bmt-container bmt-construction-grid">
+      <div class="bmt-construction-visual">
+        <div class="bmt-construction-photo">
+          <!-- Replace with: <img src="construction.jpg" alt="Construction site"> -->
+          <div class="bmt-photo-placeholder">
+            <svg class="bmt-photo-placeholder-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="12" width="40" height="28" rx="1" stroke="#C2AB69" stroke-width="1.5"/>
+              <circle cx="17" cy="24" r="5" stroke="#C2AB69" stroke-width="1.5"/>
+              <path d="M4 32 L14 22 L22 30 L30 20 L44 34" stroke="#C2AB69" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <span class="bmt-photo-placeholder-label">Construction site photo</span>
+          </div>
+          <div class="bmt-construction-stamp">
+            <div class="bmt-stamp-eyebrow">NHBRC</div>
+            <div class="bmt-stamp-num">Reg.</div>
+            <div class="bmt-stamp-label">Builder</div>
+          </div>
+        </div>
+      </div>
+      <div class="bmt-construction-copy">
+        <div class="bmt-eyebrow">More Than Thatch</div>
+        <span class="bmt-rule"></span>
+        <h2 class="bmt-h2">
+          Full-scope <strong>Building &amp;<br>Construction</strong> Services
+        </h2>
+        <p class="bmt-lead">
+          We're not only thatch. As an <strong>NHBRC-registered builder</strong>, we deliver
+          new residential builds, renovations, additions and ongoing building maintenance —
+          taking your concept from drawing to handover with the same trade rigour that has
+          defined BM Thatchers since 1988.
+        </p>
+        <ul class="bmt-construction-list">
+          <li>
+            <span class="bmt-construction-num">01</span>
+            <div>
+              <strong>New residential builds</strong>
+              <span>Single-storey to multi-level homes, lodges and lifestyle estates.</span>
+            </div>
+          </li>
+          <li>
+            <span class="bmt-construction-num">02</span>
+            <div>
+              <strong>Renovations &amp; additions</strong>
+              <span>Extensions, remodels, structural alterations and refurbishments.</span>
+            </div>
+          </li>
+          <li>
+            <span class="bmt-construction-num">03</span>
+            <div>
+              <strong>Building maintenance</strong>
+              <span>Ongoing care contracts for estates, lodges and commercial sites.</span>
+            </div>
+          </li>
+          <li>
+            <span class="bmt-construction-num">04</span>
+            <div>
+              <strong>Project management</strong>
+              <span>Concept, build and handover — single point of accountability.</span>
+            </div>
+          </li>
+        </ul>
+        <div class="bmt-construction-actions">
+          <a class="bmt-btn bmt-btn-gold" href="#contact">Discuss A Build <span class="bmt-arrow"></span></a>
+          <a class="bmt-link" href="#projects">View Portfolio →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROJECTS STRIP
+       ============================================================ -->
+  <section id="projects" class="bmt-section">
+    <div class="bmt-container">
+      <div class="bmt-section-head">
+        <div class="bmt-eyebrow">Featured Work</div>
+        <span class="bmt-rule"></span>
+        <h2 class="bmt-h2">Recent <strong>Projects</strong></h2>
+      </div>
+      <div class="bmt-projects-grid">
+
+        <a class="bmt-project" href="#contact">
+          <div class="bmt-project-photo">
+            <div class="bmt-photo-placeholder">
+              <svg class="bmt-photo-placeholder-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="12" width="40" height="28" rx="1" stroke="#C2AB69" stroke-width="1.5"/>
+                <circle cx="17" cy="24" r="5" stroke="#C2AB69" stroke-width="1.5"/>
+                <path d="M4 32 L14 22 L22 30 L30 20 L44 34" stroke="#C2AB69" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              <span class="bmt-photo-placeholder-label">Lodge photo</span>
+            </div>
+          </div>
+          <div class="bmt-project-meta">
+            <div class="bmt-project-tag">Lodge</div>
+            <div class="bmt-project-name">Madikwe Game Reserve</div>
+            <div class="bmt-project-loc">South Africa</div>
+          </div>
+        </a>
+
+        <a class="bmt-project" href="#contact">
+          <div class="bmt-project-photo">
+            <div class="bmt-photo-placeholder">
+              <svg class="bmt-photo-placeholder-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="12" width="40" height="28" rx="1" stroke="#C2AB69" stroke-width="1.5"/>
+                <circle cx="17" cy="24" r="5" stroke="#C2AB69" stroke-width="1.5"/>
+                <path d="M4 32 L14 22 L22 30 L30 20 L44 34" stroke="#C2AB69" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              <span class="bmt-photo-placeholder-label">Villa photo</span>
+            </div>
+          </div>
+          <div class="bmt-project-meta">
+            <div class="bmt-project-tag">Villa</div>
+            <div class="bmt-project-name">Île aux Cerfs</div>
+            <div class="bmt-project-loc">Mauritius</div>
+          </div>
+        </a>
+
+        <a class="bmt-project" href="#contact">
+          <div class="bmt-project-photo">
+            <div class="bmt-photo-placeholder">
+              <svg class="bmt-photo-placeholder-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="12" width="40" height="28" rx="1" stroke="#C2AB69" stroke-width="1.5"/>
+                <circle cx="17" cy="24" r="5" stroke="#C2AB69" stroke-width="1.5"/>
+                <path d="M4 32 L14 22 L22 30 L30 20 L44 34" stroke="#C2AB69" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              <span class="bmt-photo-placeholder-label">Boma photo</span>
+            </div>
+          </div>
+          <div class="bmt-project-meta">
+            <div class="bmt-project-tag">Boma</div>
+            <div class="bmt-project-name">Kasane</div>
+            <div class="bmt-project-loc">Botswana</div>
+          </div>
+        </a>
+
+        <a class="bmt-project" href="#contact">
+          <div class="bmt-project-photo">
+            <div class="bmt-photo-placeholder">
+              <svg class="bmt-photo-placeholder-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="12" width="40" height="28" rx="1" stroke="#C2AB69" stroke-width="1.5"/>
+                <circle cx="17" cy="24" r="5" stroke="#C2AB69" stroke-width="1.5"/>
+                <path d="M4 32 L14 22 L22 30 L30 20 L44 34" stroke="#C2AB69" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              <span class="bmt-photo-placeholder-label">Residence photo</span>
+            </div>
+          </div>
+          <div class="bmt-project-meta">
+            <div class="bmt-project-tag">Residence</div>
+            <div class="bmt-project-name">Hartbeespoort</div>
+            <div class="bmt-project-loc">Gauteng</div>
+          </div>
+        </a>
+
+      </div>
+      <div class="bmt-projects-foot">
+        <a class="bmt-btn bmt-btn-outline-gold" href="#contact">View All Projects <span class="bmt-arrow"></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       QUOTE FORM
+       ============================================================ -->
+  <section id="contact" class="bmt-section">
+    <div class="bmt-container bmt-quote-grid">
+      <div>
+        <div class="bmt-eyebrow">Get In Touch</div>
+        <span class="bmt-rule"></span>
+        <h2 class="bmt-h2">Request A <strong>Quote</strong></h2>
+        <p class="bmt-lead">
+          Tell us about your project. Our team will respond within one working day with next
+          steps, site-visit options and a fee proposal where applicable.
+        </p>
+        <ul class="bmt-quote-list">
+          <li><span class="bmt-bullet"></span>Free consultation and site assessment</li>
+          <li><span class="bmt-bullet"></span>Detailed scope, programme and pricing</li>
+          <li><span class="bmt-bullet"></span>SANS-coded methodology, NHBRC registered</li>
+        </ul>
+      </div>
+      <form class="bmt-quote-form" id="quote-form">
+        <div class="bmt-field-row">
+          <label class="bmt-field">
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your first name" required>
+          </label>
+          <label class="bmt-field">
+            <span>Surname</span>
+            <input type="text" name="surname" placeholder="Your surname">
+          </label>
+        </div>
+        <div class="bmt-field-row">
+          <label class="bmt-field">
+            <span>Email Address</span>
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+          <label class="bmt-field">
+            <span>Phone Number</span>
+            <input type="tel" name="phone" placeholder="+27 ...">
+          </label>
+        </div>
+        <label class="bmt-field">
+          <span>Service Interested In</span>
+          <select name="service">
+            <option>New Thatched Roofs</option>
+            <option>Thatch Roof Maintenance and Repairs</option>
+            <option>International Projects</option>
+            <option>Building &amp; Construction Services</option>
+            <option>Fire &amp; Lightning Protection Systems</option>
+            <option>Added Services</option>
+            <option>Other / Not Sure Yet</option>
+          </select>
+        </label>
+        <label class="bmt-field">
+          <span>Tell Us About Your Project</span>
+          <textarea name="message" placeholder="Brief description of your project, location, timeline..."></textarea>
+        </label>
+        <button type="submit" class="bmt-btn bmt-btn-gold bmt-form-submit">
+          Send Enquiry <span class="bmt-arrow"></span>
+        </button>
+        <p class="bmt-form-notice">We respond within one working day.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer>
+    <div class="bmt-container bmt-footer-grid">
+      <div class="bmt-footer-brand">
+        <svg width="140" height="38" viewBox="0 0 160 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="44" height="44" fill="#000"/>
+          <g stroke="#C2AB69" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 28 L8 16 L16 16 L16 28"/>
+            <path d="M8 28 L4 32 L20 32 L16 28"/>
+            <path d="M16 16 L22 20 L16 28"/>
+            <path d="M36 28 L36 16 L28 16 L28 28"/>
+            <path d="M36 28 L40 32 L24 32 L28 28"/>
+            <path d="M28 16 L22 20 L28 28"/>
+          </g>
+          <text x="52" y="20" fill="#fff" font-family="'Bebas Neue', Impact, sans-serif" font-size="18" letter-spacing="2">BM THATCHERS</text>
+          <text x="52" y="34" fill="#C2AB69" font-family="'Bebas Neue', Impact, sans-serif" font-size="13" letter-spacing="3">INTERNATIONAL</text>
+        </svg>
+        <p style="margin-top:20px;">We are <strong>YOUR</strong> Thatch Roofing and Construction Specialists. Contact BM Thatchers today for more information on our range of products and services.</p>
+      </div>
+      <div>
+        <h4 class="bmt-footer-h">Contact Details</h4>
+        <ul class="bmt-footer-list">
+          <li>71 Nelson Rd, Gardenvale AH, Midvaal</li>
+          <li><a href="mailto:info@bmthatchers.co.za">info@bmthatchers.co.za</a></li>
+          <li><a href="tel:+27114392901">+27 11 439 2901 / 2 / 3</a></li>
+          <li><a href="tel:+27824536477">+27 82 453 6477</a></li>
+          <li><a href="tel:+27828299369">+27 82 829 9369</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="bmt-footer-h">Quick Links</h4>
+        <ul class="bmt-footer-list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="bmt-footer-h">Accreditations</h4>
+        <div class="bmt-footer-badges">
+          <div class="bmt-badge">
+            <span>Thatchers Association</span>
+            <small>of South Africa</small>
+          </div>
+          <div class="bmt-badge">
+            <span>NHBRC</span>
+            <small>Registered Builder</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bmt-container">
+      <div class="bmt-footer-foot">
+        <span>© 2025 BM Thatchers International. All rights reserved.</span>
+        <span>
+          <a href="#hero">Privacy Policy</a> ·
+          <a href="#hero">Articles</a> ·
+          <a href="#hero">Sitemap</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       JAVASCRIPT
+       ============================================================ -->
+  <script>
+    // ── Mobile hamburger ──────────────────────────────────────────
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', () => {
+      const open = mobileMenu.classList.toggle('is-open');
+      hamburger.setAttribute('aria-expanded', open);
+    });
+
+    // Close mobile menu on link click
+    mobileMenu.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        mobileMenu.classList.remove('is-open');
+        hamburger.setAttribute('aria-expanded', false);
+      });
+    });
+
+    // ── Active nav on scroll ──────────────────────────────────────
+    const sections = ['hero','about','stats','services','construction','projects','contact'];
+    const navLinks = document.querySelectorAll('.bmt-nav-link[data-section]');
+
+    function updateActiveNav() {
+      let current = 'hero';
+      sections.forEach(id => {
+        const el = document.getElementById(id);
+        if (el && window.scrollY >= el.offsetTop - 120) current = id;
+      });
+      navLinks.forEach(link => {
+        const active = link.dataset.section === current ||
+          (link.dataset.section === 'services' && current === 'stats');
+        link.classList.toggle('is-active', active);
+      });
+    }
+
+    window.addEventListener('scroll', updateActiveNav, { passive: true });
+    updateActiveNav();
+
+    // ── Quote form — mailto submission ────────────────────────────
+    document.getElementById('quote-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const data = new FormData(this);
+      const name    = data.get('name') || '';
+      const surname = data.get('surname') || '';
+      const phone   = data.get('phone') || '';
+      const service = data.get('service') || '';
+      const message = data.get('message') || '';
+
+      const subject = encodeURIComponent(`Quote Request — ${service} — ${name} ${surname}`);
+      const body = encodeURIComponent(
+        `Name: ${name} ${surname}\n` +
+        `Phone: ${phone}\n` +
+        `Service: ${service}\n\n` +
+        `Project Details:\n${message}`
+      );
+
+      window.location.href = `mailto:info@bmthatchers.co.za?subject=${subject}&body=${body}`;
+    });
+  </script>
+
+</body>
+</html>
